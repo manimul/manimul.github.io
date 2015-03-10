@@ -36,6 +36,12 @@ a{
 color:#888888;
 }
 
+a:hover, a:focus {
+color: #777777;
+text-decoration: underline;
+}
+
+
 
 /* Custom page header */
 .header {
@@ -111,17 +117,13 @@ color:orange;
 
 .img-responsive{
 padding:20px 10px;
--webkit-transition: -webkit-filter 1s;
-transition:-webkit-filter 1s;
-
--webkit-filter: grayscale(100%);
 -webkit-transition: opacity 1s;
 transition:opacity 1s;
-opacity:0.5;
-border-radius: 4px;
+opacity:0.8;
+border-radius: 3px;
 }
 .work:hover .img-responsive, .work:hover .img-responsive{
--webkit-filter: grayscale(0%);
+
 opacity:1;
 }
 .work:hover{
