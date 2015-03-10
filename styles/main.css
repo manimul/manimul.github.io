@@ -6015,7 +6015,7 @@ button.close {
     display: none !important; }
  }
 
-/* line 7, /Users/mark/Development/portfolio/app/styles/main.scss */
+/* line 9, /Users/mark/Development/portfolio/app/styles/main.scss */
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -6023,117 +6023,127 @@ button.close {
   padding: 0.2em 0; }
 
 /* Space out content a bit */
-/* line 15, /Users/mark/Development/portfolio/app/styles/main.scss */
+/* line 17, /Users/mark/Development/portfolio/app/styles/main.scss */
 body {
   padding-top: 20px;
   padding-bottom: 20px;
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 400; }
+  font-weight: 400;
+  text-align: center; }
 
-/* line 22, /Users/mark/Development/portfolio/app/styles/main.scss */
+/* line 25, /Users/mark/Development/portfolio/app/styles/main.scss */
 h1, h2, h3, h4 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 600; }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
-/* line 30, /Users/mark/Development/portfolio/app/styles/main.scss */
+/* line 33, /Users/mark/Development/portfolio/app/styles/main.scss */
 .header, .marketing, .footer {
   padding-left: 15px;
   padding-right: 15px; }
 
-/* line 35, /Users/mark/Development/portfolio/app/styles/main.scss */
+/* line 38, /Users/mark/Development/portfolio/app/styles/main.scss */
 a {
-  color: #888888; }
+  color: #49a98a; }
 
-/* line 39, /Users/mark/Development/portfolio/app/styles/main.scss */
+/* line 42, /Users/mark/Development/portfolio/app/styles/main.scss */
 a:hover, a:focus {
   color: #777777;
   text-decoration: underline; }
 
 /* Custom page header */
-/* line 47, /Users/mark/Development/portfolio/app/styles/main.scss */
+/* line 50, /Users/mark/Development/portfolio/app/styles/main.scss */
 .header {
-  border-bottom: 1px solid #e5e5e5;
   /* Make the masthead heading the same height as the navigation */ }
-  /* line 51, /Users/mark/Development/portfolio/app/styles/main.scss */
+  /* line 54, /Users/mark/Development/portfolio/app/styles/main.scss */
   .header h3 {
     margin-top: 0;
     margin-bottom: 0;
     line-height: 40px;
     padding-bottom: 19px; }
 
-/* line 59, /Users/mark/Development/portfolio/app/styles/main.scss */
+/* line 62, /Users/mark/Development/portfolio/app/styles/main.scss */
 .logo-text {
   font-family: 'Leckerli One', cursive;
-  font-size: 42px;
-  color: orange; }
+  font-size: 32px;
+  color: #49a98a; }
+
+/* line 68, /Users/mark/Development/portfolio/app/styles/main.scss */
+.nav > li > a {
+  padding: 10px 5px; }
 
 /* Custom page footer */
-/* line 67, /Users/mark/Development/portfolio/app/styles/main.scss */
+/* line 74, /Users/mark/Development/portfolio/app/styles/main.scss */
 .footer {
   padding-top: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5; }
 
-/* line 73, /Users/mark/Development/portfolio/app/styles/main.scss */
+/* line 80, /Users/mark/Development/portfolio/app/styles/main.scss */
 .container-narrow > hr {
   margin: 30px 0; }
 
 /* Main marketing message and sign up button */
-/* line 78, /Users/mark/Development/portfolio/app/styles/main.scss */
+/* line 85, /Users/mark/Development/portfolio/app/styles/main.scss */
 .jumbotron {
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5; }
-  /* line 81, /Users/mark/Development/portfolio/app/styles/main.scss */
+  text-align: center; }
+  /* line 88, /Users/mark/Development/portfolio/app/styles/main.scss */
   .jumbotron .btn {
     font-size: 21px;
     padding: 14px 24px; }
 
 /* Supporting marketing content */
-/* line 88, /Users/mark/Development/portfolio/app/styles/main.scss */
+/* line 95, /Users/mark/Development/portfolio/app/styles/main.scss */
 .marketing {
   margin: 40px 0; }
-  /* line 90, /Users/mark/Development/portfolio/app/styles/main.scss */
+  /* line 97, /Users/mark/Development/portfolio/app/styles/main.scss */
   .marketing p + h4 {
     margin-top: 28px; }
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
+  /* line 104, /Users/mark/Development/portfolio/app/styles/main.scss */
+  body {
+    text-align: left; }
+
   /* Remove the padding we set earlier */
-  /* line 102, /Users/mark/Development/portfolio/app/styles/main.scss */
+  /* line 111, /Users/mark/Development/portfolio/app/styles/main.scss */
   .header, .marketing, .footer {
     padding-left: 0;
     padding-right: 0; }
 
   /* Space out the masthead */
-  /* line 108, /Users/mark/Development/portfolio/app/styles/main.scss */
+  /* line 117, /Users/mark/Development/portfolio/app/styles/main.scss */
   .header {
     margin-bottom: 30px; }
 
   /* Remove the bottom border on the jumbotron for visual effect */
-  /* line 113, /Users/mark/Development/portfolio/app/styles/main.scss */
+  /* line 122, /Users/mark/Development/portfolio/app/styles/main.scss */
   .jumbotron {
     border-bottom: 0; }
+
+  /* line 125, /Users/mark/Development/portfolio/app/styles/main.scss */
+  .logo-text {
+    font-size: 42px; }
  }
 
-/* line 118, /Users/mark/Development/portfolio/app/styles/main.scss */
+/* line 134, /Users/mark/Development/portfolio/app/styles/main.scss */
 .img-responsive {
-  padding: 20px 10px;
+  padding: 0px;
   -webkit-transition: opacity 1s;
   transition: opacity 1s;
-  opacity: 0.8;
-  border-radius: 3px; }
+  opacity: 0.8; }
 
-/* line 125, /Users/mark/Development/portfolio/app/styles/main.scss */
+/* line 141, /Users/mark/Development/portfolio/app/styles/main.scss */
 .work:hover .img-responsive, .work:hover .img-responsive {
   opacity: 1; }
 
-/* line 129, /Users/mark/Development/portfolio/app/styles/main.scss */
+/* line 145, /Users/mark/Development/portfolio/app/styles/main.scss */
 .work:hover {
   background: #f1f1f1;
   border-radius: 4px; }
 
-/* line 134, /Users/mark/Development/portfolio/app/styles/main.scss */
+/* line 150, /Users/mark/Development/portfolio/app/styles/main.scss */
 .btn-primary {
   color: #fff;
   background-color: #999999;
@@ -6141,20 +6151,43 @@ a:hover, a:focus {
   border-radius: 0px;
   text-transform: uppercase; }
 
-/* line 142, /Users/mark/Development/portfolio/app/styles/main.scss */
-.work:hover .btn-primary {
-  background-color: orange;
-  border-color: orange; }
+/* line 158, /Users/mark/Development/portfolio/app/styles/main.scss */
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
+  background-color: #999999;
+  border-color: #999999; }
 
-/* line 148, /Users/mark/Development/portfolio/app/styles/main.scss */
-.work .label-primary {
-  background-color: #bbbbbb;
-  font-size: 100%; }
-/* line 152, /Users/mark/Development/portfolio/app/styles/main.scss */
-.work ul {
-  margin-left: 0px; }
-/* line 155, /Users/mark/Development/portfolio/app/styles/main.scss */
-.work ul li {
-  padding: 0px; }
+/* line 163, /Users/mark/Development/portfolio/app/styles/main.scss */
+.work:hover .btn-primary {
+  background-color: #49a98a;
+  border-color: #49a98a; }
+
+/* line 168, /Users/mark/Development/portfolio/app/styles/main.scss */
+.work {
+  padding: 30px 10px;
+  border-bottom: 2px solid #49a98a; }
+  /* line 171, /Users/mark/Development/portfolio/app/styles/main.scss */
+  .work .label-primary {
+    background-color: #bbbbbb;
+    font-size: 100%; }
+  /* line 175, /Users/mark/Development/portfolio/app/styles/main.scss */
+  .work ul {
+    margin-left: 0px; }
+  /* line 178, /Users/mark/Development/portfolio/app/styles/main.scss */
+  .work ul li {
+    padding: 0px;
+    margin-top: 12px; }
+
+/* line 186, /Users/mark/Development/portfolio/app/styles/main.scss */
+.page-header {
+  border-bottom: 0px;
+  margin: 20px 0px 0px; }
+
+/* line 191, /Users/mark/Development/portfolio/app/styles/main.scss */
+footer {
+  padding: 20px 0px; }
+
+/* line 195, /Users/mark/Development/portfolio/app/styles/main.scss */
+.nav > li > a:hover, .nav > li > a:focus {
+  background-color: #ffffff; }
 
 /*# sourceMappingURL=main.css.map */

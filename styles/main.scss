@@ -4,6 +4,8 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/font
 @import "../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss";
 // endbower
 
+$main-color: #49a98a ;
+
 .browsehappy {
     margin: 0.2em 0;
     background: #ccc;
@@ -17,6 +19,7 @@ body {
     padding-bottom: 20px;
    font-family: 'Source Sans Pro', sans-serif;
     font-weight:400;
+    text-align: center;
 }
 
 h1,h2,h3,h4{
@@ -33,7 +36,7 @@ font-weight:600;
 }
 
 a{
-color:#888888;
+color:$main-color;
 }
 
 a:hover, a:focus {
@@ -45,7 +48,7 @@ text-decoration: underline;
 
 /* Custom page header */
 .header {
-    border-bottom: 1px solid #e5e5e5;
+   
 
     /* Make the masthead heading the same height as the navigation */
     h3 {
@@ -58,10 +61,14 @@ text-decoration: underline;
 
 .logo-text{
 font-family: 'Leckerli One', cursive;
-font-size:42px;
-color:orange;
+font-size:32px;
+color:$main-color;
 }
 
+.nav > li > a {
+
+    padding: 10px 5px;
+}
 
 /* Custom page footer */
 .footer {
@@ -77,7 +84,7 @@ color:orange;
 /* Main marketing message and sign up button */
 .jumbotron {
     text-align: center;
-    border-bottom: 1px solid #e5e5e5;
+   
     .btn {
         font-size: 21px;
         padding: 14px 24px;
@@ -94,7 +101,9 @@ color:orange;
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
-
+body{
+text-align: left;
+}
 
     /* Remove the padding we set earlier */
     .header,
@@ -113,14 +122,21 @@ color:orange;
     .jumbotron {
         border-bottom: 0;
     }
+     .logo-text{
+font-size:42px;
+
+}   
+
 }
 
+
+
 .img-responsive{
-padding:20px 10px;
+padding:0px;
 -webkit-transition: opacity 1s;
 transition:opacity 1s;
 opacity:0.8;
-border-radius: 3px;
+
 }
 .work:hover .img-responsive, .work:hover .img-responsive{
 
@@ -139,12 +155,19 @@ border-radius: 0px;
 text-transform: uppercase;
 }
 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle{
+background-color: #999999;
+border-color: #999999;
+}
+
 .work:hover .btn-primary{
-background-color: orange;
-border-color:orange;
+background-color: $main-color;
+border-color:$main-color;
 }
 
 .work {
+    padding:30px 10px;
+    border-bottom: 2px solid $main-color;
     .label-primary{
 background-color: #bbbbbb;
 font-size: 100%;
@@ -154,9 +177,21 @@ font-size: 100%;
     }
     ul li{
     padding:0px;
+        margin-top:12px;
     
     }
     
 }
 
+.page-header {
+ border-bottom: 0px;
+    margin:20px 0px 0px;
+}
 
+footer{
+padding: 20px 0px;
+}
+
+.nav > li > a:hover, .nav > li > a:focus{
+background-color: #ffffff;
+}
