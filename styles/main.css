@@ -6044,11 +6044,11 @@ h1, h2, h3, h4 {
 
 /* line 38, /Users/mark/Development/portfolio/app/styles/main.scss */
 a {
-  color: #49a98a; }
+  color: #72D562; }
 
 /* line 42, /Users/mark/Development/portfolio/app/styles/main.scss */
 a:hover, a:focus {
-  color: #777777;
+  color: #72D562;
   text-decoration: underline; }
 
 /* Custom page header */
