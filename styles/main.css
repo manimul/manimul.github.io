@@ -1210,7 +1210,7 @@ h1, .h1, h2, .h2, h3, .h3 {
 /* line 37, /Users/mark/Development/portfolio/app/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/type */
 h4, .h4, h5, .h5, h6, .h6 {
   margin-top: 10px;
-  margin-bottom: 10px; }
+  margin-bottom: 6px; }
   /* line 42, /Users/mark/Development/portfolio/app/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/type */
   h4 small, h4 .small, .h4 small, .h4 .small, h5 small, h5 .small, .h5 small, .h5 .small, h6 small, h6 .small, .h6 small, .h6 .small {
     font-size: 75%; }
@@ -1241,7 +1241,7 @@ h6, .h6 {
 
 /* line 58, /Users/mark/Development/portfolio/app/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/type */
 p {
-  margin: 0 0 10px; }
+  margin: 0 0 2px; }
 
 /* line 62, /Users/mark/Development/portfolio/app/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/type */
 .lead {
@@ -1379,7 +1379,7 @@ a.bg-danger:hover {
 /* line 145, /Users/mark/Development/portfolio/app/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/type */
 ul, ol {
   margin-top: 0;
-  margin-bottom: 10px; }
+  margin-bottom: 26px; }
   /* line 149, /Users/mark/Development/portfolio/app/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/type */
   ul ul, ul ol, ol ul, ol ol {
     margin-bottom: 0; }
@@ -2964,7 +2964,7 @@ textarea.input-lg, .input-group-lg > textarea.form-control, .input-group-lg > te
 /* line 9, /Users/mark/Development/portfolio/app/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/buttons */
 .btn {
   display: inline-block;
-  margin-bottom: 0;
+  margin-bottom: 2px;
   font-weight: normal;
   text-align: center;
   vertical-align: middle;
@@ -6146,9 +6146,9 @@ a:hover, a:focus {
 /* line 150, /Users/mark/Development/portfolio/app/styles/main.scss */
 .btn-primary {
   color: #fff;
-  background-color: #999999;
-  border-color: #999999;
-  border-radius: 0px;
+  background-color: #49a98a;
+  border-color: #49a98a;
+  border-radius: 3px;
   text-transform: uppercase; }
 
 /* line 158, /Users/mark/Development/portfolio/app/styles/main.scss */
