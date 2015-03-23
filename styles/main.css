@@ -6066,7 +6066,7 @@ a:hover, a:focus {
 .logo-text {
   font-family: 'Leckerli One', cursive;
   font-size: 32px;
-  color: #49a98a; }
+  color: #72D562; }
 
 /* line 68, /Users/mark/Development/portfolio/app/styles/main.scss */
 .nav > li > a {
@@ -6146,8 +6146,8 @@ a:hover, a:focus {
 /* line 150, /Users/mark/Development/portfolio/app/styles/main.scss */
 .btn-primary {
   color: #fff;
-  background-color: #49a98a;
-  border-color: #49a98a;
+  background-color: #72D562;
+  border-color: #72D562;
   border-radius: 3px;
   text-transform: uppercase; }
 
@@ -6158,8 +6158,8 @@ a:hover, a:focus {
 
 /* line 163, /Users/mark/Development/portfolio/app/styles/main.scss */
 .work:hover .btn-primary {
-  background-color: #49a98a;
-  border-color: #49a98a; }
+  background-color: #72D562;
+  border-color: #72D562; }
 
 /* line 168, /Users/mark/Development/portfolio/app/styles/main.scss */
 .work {
