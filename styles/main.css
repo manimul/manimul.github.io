@@ -1229,7 +1229,8 @@ h3, .h3 {
 
 /* line 50, /Users/mark/Development/portfolio/app/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/type */
 h4, .h4 {
-  font-size: 18px; }
+  font-size: 18px; 
+  color: #72D562; }
 
 /* line 51, /Users/mark/Development/portfolio/app/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/type */
 h5, .h5 {
@@ -6163,8 +6164,10 @@ a:hover, a:focus {
 
 /* line 168, /Users/mark/Development/portfolio/app/styles/main.scss */
 .work {
-  padding: 30px 10px;
-  border-bottom: 2px solid #49a98a; }
+  /* padding: 30px 10px; */
+  padding-top: 30px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #DDDDDD; }
   /* line 171, /Users/mark/Development/portfolio/app/styles/main.scss */
   .work .label-primary {
     background-color: #bbbbbb;
