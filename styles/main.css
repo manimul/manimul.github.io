@@ -1230,7 +1230,7 @@ h3, .h3 {
 /* line 50, /Users/mark/Development/portfolio/app/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/type */
 h4, .h4 {
   font-size: 18px; 
-  color: #72D562; }
+  color: #49a98a; }
 
 /* line 51, /Users/mark/Development/portfolio/app/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/type */
 h5, .h5 {
@@ -6045,11 +6045,11 @@ h1, h2, h3, h4 {
 
 /* line 38, /Users/mark/Development/portfolio/app/styles/main.scss */
 a {
-  color: #72D562; }
+  color: #49a98a; }
 
 /* line 42, /Users/mark/Development/portfolio/app/styles/main.scss */
 a:hover, a:focus {
-  color: #72D562;
+  color: #49a98a;
   text-decoration: underline; }
 
 /* Custom page header */
@@ -6067,7 +6067,7 @@ a:hover, a:focus {
 .logo-text {
   font-family: 'Leckerli One', cursive;
   font-size: 32px;
-  color: #72D562; }
+  color: #49a98a; }
 
 /* line 68, /Users/mark/Development/portfolio/app/styles/main.scss */
 .nav > li > a {
@@ -6147,8 +6147,8 @@ a:hover, a:focus {
 /* line 150, /Users/mark/Development/portfolio/app/styles/main.scss */
 .btn-primary {
   color: #fff;
-  background-color: #72D562;
-  border-color: #72D562;
+  background-color: #49a98a;
+  border-color: #49a98a;
   border-radius: 3px;
   text-transform: uppercase; }
 
@@ -6159,8 +6159,8 @@ a:hover, a:focus {
 
 /* line 163, /Users/mark/Development/portfolio/app/styles/main.scss */
 .work:hover .btn-primary {
-  background-color: #72D562;
-  border-color: #72D562; }
+  background-color: #49a98a;
+  border-color: #49a98a; }
 
 /* line 168, /Users/mark/Development/portfolio/app/styles/main.scss */
 .work {
